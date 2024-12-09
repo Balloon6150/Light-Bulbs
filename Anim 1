@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Light Bulbs</title>
+<script>
+    function myFunction() {
+        document.getElementById("OnSwitch") 
+    }
+</script>
+</head>
+<body>
+
+<h1>Light Bulbs</h1>
+<h2> About Light Bulbs:</h2>
+<br>
+<p>Light bulbs work by converting electrical energy into light.</p>
+<ol>
+    <li> <h3> Incandescent Bulbs </h3>
+        <ul> 
+            <li> When you turn on the switch, electricity flows through a thin wire filament inside the bulb</li>
+            <li> The filament, usually made of tungsten, heats up due to the resistance it offers to the electric current</li>
+            <li>As the filament gets hot, it starts to glow and emit light.</li>
+            <li>The glass bulb around the filament prevents it from burning out quickly by keeping out oxygen.</li>
+
+        </ul>
+    </li>
+    <h3>Compact Fluorescent Lamps (CLFs)</h3>
+    <ul>
+        <li>When switched on, electricity passes through a gas (usually argon and mercury vapor) in a tube.</li>
+        <li>This creates ultraviolet light, which isnt visible to the human eye.</li>
+        <li>The Uv light hits the phosphor coating on the inside of the tube, which then glows and emits visible light.</li>
+
+    </ul>
+    </li>
+    <li>
+    <h3> Light Emitting Diodes</h3>
+    <ul> 
+        <li>LEDs are simicondoctor devices that emit light when an electric current passes through them.</li>
+        <li>When the current flows, electrons and holes within the semiconductor recombine, releasing energy in form of photons (light).</li>
+        <li>LEDs are highly efficent and produce very little heat compared to other types of bulbs.</li>
+    </ul>
+    </li>
+</ol>
+<button onclick="document.getElementById('MyImage').src='https://cloud-8sttq723o-hack-club-bot.vercel.app/0image.png'"> Turn Light on
+</button>
+<img id="MyImage" src="https://cloud-8sttq723o-hack-club-bot.vercel.app/0image.png" style="width:100px">
+<button onclick="document.getElementById('MyImage').src='https://cloud-9j3ey0xdm-hack-club-bot.vercel.app/0image.png'"> Turn Light off
+</button>
+</body>
+</html>
